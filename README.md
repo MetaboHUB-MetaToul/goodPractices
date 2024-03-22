@@ -26,6 +26,9 @@ In the case of non-permanent developer, it's crucial that the repo is available 
 
 When the new developer mission is to add features to an existing software or library, it's crucial to protect the existing code. First, the main branch must be protected so that only merge can change it. Second, each new feature must be handled by a merge request. This allows to make easier the code reviews with the bioinformatics referent, to keep the history of the development and to keep safe the other parts of the code.
 
+## Versioning
+
+The new developer needs to train himself/herself and use the tools specific to git and the language with which he develops to give a version number to each stable version of his code. This enables better tracking of code and ensures reproducibility of analyses by indicating the software version used.
 
 ## Documentation
 
@@ -58,3 +61,7 @@ Librairies computing the proportion of the code covered by tests allow to evalua
 
 IT developments often require a lot of dependencies, which are difficult to trace or install in certain environments.
 To ensure that software can be used long after it has been developed, and for reasons of reproducibility, it is necessary to create a container to run it. A container contains the OS and all the libraries required to run the software. [Docker](https://www.docker.com/) and [Singularity](https://sylabs.io/singularity/) are currently the most widely used containerization systems at MetaToul.
+
+## Mirror on github MetaToul organisation
+
+When the software is usable and well packaged, a mirror to the [github Metatoul organisation](https://github.com/orgs/MetaboHUB-MetaToul) has to be set up.
