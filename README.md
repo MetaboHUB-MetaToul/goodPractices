@@ -20,7 +20,7 @@ The new developer's manager must ensure that he/she is registered on these 2 pla
 
 ## Creation of a git repository
 
-In the case of a completely new development, the first step is to create a git repository in the forge that you use in your institute (INRAE forge, github, etc...).
+In the case of a completely new development, the first step is to create a git repository in the forge that you use in your institute (INRAE forge, github, etc...). It is important that the git project is registered in a github or gitlab group belonging to the project managers.
 
 In the case of non-permanent developer, it's crucial that the repo is available to his/her supervisors.
 
