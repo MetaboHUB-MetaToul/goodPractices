@@ -4,8 +4,6 @@ The aim of this document is to list the best practices to be followed when creat
 
 They are listed in order of importance and difficulty of implementation.
 
-You can also browse the Ten simple rules for making a software tool workflow-ready in this <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009823#sec002" target="_blank">paper</a>.
-
 ## MetaToul bioinformatics referent
 
 If the person in charge of the new development is not a senior developer, and the person in charge is neither a computer scientist nor a bioinformatician, it is necessary to choose a referent from among MetaToul's permanent bioinformaticians. Code review sessions can be organized between the new developer and the permanent member to ensure that the code produced meets the standards of any IT project.
@@ -67,3 +65,9 @@ To ensure that software can be used long after it has been developed, and for re
 ## Mirror on github MetaToul organisation
 
 When the software is usable and well packaged, a mirror to the [github Metatoul organisation](https://github.com/orgs/MetaboHUB-MetaToul) has to be set up.
+
+## Links
+
+- <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009823#sec002" target="_blank">Ten simple rules for making a software tool workflow-ready</a>
+- <a href="https://hal.science/hal-02083801/document" target="_blank">Je code : Les bonnes pratiques de développement logiciel</a>
+
