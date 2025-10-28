@@ -4,7 +4,7 @@ The aim of this document is to list the best practices to be followed when creat
 
 They are listed in order of importance and difficulty of implementation.
 
-## MetaToul bioinformatics referent
+## MetaToul bioinformatics referent (COMPULSORY)
 
 If the person in charge of the new development is not a senior developer, and the person in charge is neither a computer scientist nor a bioinformatician, it is necessary to choose a referent from among MetaToul's permanent bioinformaticians. Code review sessions can be organized between the new developer and the permanent member to ensure that the code produced meets the standards of any IT project.
 
@@ -16,35 +16,39 @@ Questions can be adressed to two levels:
 
 The new developer's manager must ensure that he/she is registered on these 2 platforms.
 
-## Creation of a git repository
+## Creation of a git repository (COMPULSORY)
 
 In the case of a completely new development, the first step is to create a git repository in the forge that you use in your institute (INRAE forge, github, etc...). It is important that the git project is registered in a github or gitlab group belonging to the project managers.
 
 In the case of non-permanent developer, it's crucial that the repo is available to his/her supervisors.
 
-## Protection of the existing code
+## Protection of the existing code (COMPULSORY)
 
 When the new developer mission is to add features to an existing software or library, it's crucial to protect the existing code. First, the main branch must be protected so that only merge can change it. Second, each new feature must be handled by a merge request. This allows to make easier the code reviews with the bioinformatics referent, to keep the history of the development and to keep safe the other parts of the code.
 
-## Versioning
-
-The new developer needs to train himself/herself and use the tools specific to git and the language with which he develops to give a version number to each stable version of his code. This enables better tracking of code and ensures reproducibility of analyses by indicating the software version used.
+The developer should also use a license.
 
 ## Documentation
 
-### Creation of a README.md file
+### Creation of a README.md file (COMPULSORY)
 
 The repo must contain at least a README.md file that contains a title, a synopsis and a detailed documentation.
 
 A lot of README.md templates exist (e.g. <https://www.readme-templates.com/>), it's also possible to generate one when you create a new repo in gitlab or github.
 
-### Developer documentation
+### Developer documentation (COMPULSORY)
 
 The code must be commented in english and must follow the language-dependent format required to generate automatic documentation.
 
 ### User documentation
 
 The user documentation must be written in english and must integrate examples of how to use the software.
+
+## Versioning
+
+The new developer needs to train himself/herself and use the tools specific to git and the language with which he develops to give a version number to each stable version of his code. This enables better tracking of code and ensures reproducibility of analyses by indicating the software version used.
+
+The developer must keep track of the changes within a Changelog file.
 
 ## Tests
 
