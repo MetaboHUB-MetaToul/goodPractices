@@ -34,7 +34,7 @@ The developer should also use a license.
 
 The repo must contain at least a README.md file that contains a title, a synopsis and a detailed documentation.
 
-A lot of README.md templates exist (e.g. <https://www.readme-templates.com/>), it's also possible to generate one when you create a new repo in gitlab or github.
+A lot of README.md templates exist (e.g. [CodeMeta](https://codemeta.github.io/create/)), it's also possible to generate one when you create a new repo in gitlab or github.
 
 ### Developer documentation (COMPULSORY)
 
