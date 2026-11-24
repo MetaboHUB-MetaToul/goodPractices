@@ -1,3 +1,5 @@
+**Deprecated : now follow the [MetaboHUB good practices](https://forge.inrae.fr/metabohub/e-tools/mthgoodpractices) !**
+
 # Good practices for MetaToul bioinformatics project
 
 The aim of this document is to list the best practices to be followed when creating and monitoring a bioinformatics project in MetaToul.
